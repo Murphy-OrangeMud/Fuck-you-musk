@@ -14,7 +14,9 @@ random_bullshit = [
     "Blow yourself, Elon Musk",
     "Elon Musk has got his head up his ass",
     "Kiss my ass, Elon Musk",
-    "Elon Musk is a fucking retard"
+    "Elon Musk is a fucking retard",
+    "You Elon Musk spent 40 billion on Twitter but spoiled it in just a week. This is tHe RiCh?",
+    "If you fucking don't know how to operate a website you can just the fuck give it up"
 ]
 
 def random_bullshit_generator():
