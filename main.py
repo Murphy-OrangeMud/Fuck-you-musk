@@ -18,12 +18,12 @@ random_bullshit = [
 ]
 
 def random_bullshit_generator():
-    idx = random.randint(0, len(random_bullshit))
+    idx = random.randint(0, len(random_bullshit) - 1)
     return random_bullshit[idx]
 
 def main():
     client = tweepy.Client(bearer_token=BEARER_TOKEN, consumer_key=CONSUMER_KEY, consumer_secret=CONSUMER_SECRET, access_token=ACCESS_TOKEN, access_token_secret=ACCESS_TOKEN_SECRET)
-    client.create_tweet(text=random_bullshit_generator())
+    client.create_tweet(text="@elonmusk " + random_bullshit_generator())
 
 if __name__ == "__main__":
     main()
