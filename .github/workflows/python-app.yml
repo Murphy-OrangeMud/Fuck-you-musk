@@ -32,6 +32,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        export BEARER_TOKEN=${{ secrets.BEARER_TOKEN }}
+        export CONSUMER_KEY=${{ secrets.CONSUMER_KEY }}
+        export CONSUMER_SECRET=${{ secrets.CONSUMER_SECRET }}
+        export ACCESS_TOKEN=${{ secrets.ACCESS_TOKEN }}
+        export ACCESS_TOKEN_SECRET=${{ secrets.ACCESS_TOKEN_SECRET }}
     - name: Lint with flake8
       run: |
         # stop the build if there are Python syntax errors or undefined names
