@@ -3,12 +3,12 @@ import random
 import tweepy
 
 random_bullshit = [
+    "When will Twitter shut down?",
     "Elon Musk should eat shit today",
     "Fuck Elon Musk, Twitter won't work",
     "What the fuck Elon Musk",
     "Who the fuck will care Twitter",
-    "Eat shit, Elon Musk",
-    "Eat shit and die, mother fucker Elon Musk",
+    "Eat shit, mother fucker Elon Musk",
     "Twitter sucks",
     "Who the hell died and made you boss Elon Musk",
     "Blow yourself, Elon Musk",
@@ -23,7 +23,8 @@ random_bullshit = [
     "You should be ashamed of yourself",
     "Shove up your ass I don't think you understand how twitter works",
     "What the fuck do you want",
-    "You've gotta be shitting us"
+    "You've gotta be shitting us",
+    "You've fucked Twitter up and you'll finally fuck all things up"
 ]
 
 def random_bullshit_generator():
